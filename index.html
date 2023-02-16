@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Comic Sans MS;
+  font-size: 17.8px;
+ font-weight:100
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="C:\Users\ADMIN\Pictures\race.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1 style="text-align:center;">▀▄▀▄▀▄▒𝓢░𝓾░𝓹░𝓻░𝓪▒▄▀▄▀▄▀</h1>
+  <p>This serious performer features 3.0-litre inline six-cylinder and optional 3.0-litre inline-six 320 bhp turbo engines. These features allow the unique MKIV to be one of the fastest in its segment. The 2JZ-GTE engines in this model are famous for their durability.
+The well-trimmed classic design and unbreakable engine are some of the reasons why the Supra MK4 is our beloved!</p>
+<p><h4>Engine History</h4>
+You would be surprised to know that Toyota Supra derived its styling from Toyota Celica. The difference lied in the fact that it was much wider and longer than the Celica variant. For the same reason the sports car was known as Toyota Celica Supra and Toyota Celica XX (Japanese variant name) earlier. But, in 1986, Supra got disassociated with Celica and established itself as a distinct model leaving the prefix Celica behind. But the confusion still persists as people confuse Celica with Supra and vice versa.
+<p><h4>Noteworthy Appearances</h4>
+This is one of the most interesting facts about Toyota Supra so far. The sports car has appeared on your screens an innumerable number of times. According to a database, it is precisely 78 times that the car has appeared in movies as well as television series. Not only that, Toyota Supra has also made a debut in video games and music videos. Prominent appearances include in games such as Need for Speed, Tokyo Xtreme Racer, and in the most popular Fast and the Furious movie franchise.</p>
+<p><h4>Engine History</h4>
+The Toyota Supra has a similar engine to that of Toyota 2000GT and Toyota Crown. The first three generations of Toyota Supra were inspired by the engine of Toyota Crown and Toyota 2000 GT’s model. It is the inline 6-cylinder engine that all the four generations of Supra have been inbuilt with. This engine is known to be indestructible and still is one of the best engines with high horsepower levels.
+<p><h4>Engine History</h4>
+The Toyota Supra had the best of the technology of its time. Some of which included optional power windows, power locks, cruise control, door pull straps, and an optional sunroof. Other unique features included a tilt steering wheel and a 4-speaker audio and stereo system. But most importantly, Toyota Supra was the first ever car to get the world’s very first navigation computer in its Celica XX variant in 1981.
+
+
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+</body>
+</html>
